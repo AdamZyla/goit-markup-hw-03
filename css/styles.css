@@ -268,3 +268,9 @@ color: #434455;
 .section-four-text-bg {
    background-color: #FFFFFF;
 }
+
+.container {
+max-width: 1158px;
+padding: 0 15px;
+margin: o auto;
+}
