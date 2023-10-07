@@ -38,10 +38,12 @@ body {
    text-transform: uppercase;          
    color: #4d5ae5;
    font-style: normal;
-   display: inline-block;
+
+   display: flex;
    border-bottom: 25.5px;
    margin-left: 156px;
    margin-right: 76px;
+   justify-content: flex-start;
 }   
 
 .link {
@@ -80,6 +82,9 @@ color: #434455;
    font-weight: 500;
    line-height: 24px;
    letter-spacing: 0.32px;
+
+   padding-top: 24px;
+   padding-bottom: 24px;
    
 }
 
@@ -301,4 +306,9 @@ border-bottom: 1px solid var(--cornflower-color);
   .menu-header-navigation {
    display: flex;
    justify-content: space-between;
+   gap: 40px;
+  }
+
+  .menu-section-one {
+   
   }
