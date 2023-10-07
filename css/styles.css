@@ -274,3 +274,9 @@ max-width: 1158px;
 padding: 0 15px;
 margin: o auto;
 }
+
+.flex-header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
