@@ -4,6 +4,12 @@ body {
        background-color: #ffffff;
 }
 
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
 :root {
    --iris-color: #4D5AE5;  
    --ocean-color: #404BBF;
@@ -32,6 +38,10 @@ body {
    text-transform: uppercase;          
    color: #4d5ae5;
    font-style: normal;
+   display: inline-block;
+   border-bottom: 25.5px;
+   margin-left: 156px;
+   margin-right: 76px;
 }   
 
 .link {
@@ -137,6 +147,7 @@ cursor: pointer;
 
 .list {
    list-style: none;
+
 }
 
 .logo-span-footer {
@@ -161,6 +172,7 @@ cursor: pointer;
 
 .hero {
 background-color: #2E2F42;
+
 }
 
 .section-one {
@@ -275,8 +287,18 @@ padding: 0 15px;
 margin: o auto;
 }
 
-.flex-header {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
+.header {
+border-bottom: 1px solid var(--cornflower-color);
+
 }
+.menu-header {
+   display: flex;
+   padding-top: 24px;
+   padding-bottom: 24px;
+   justify-content: center;
+  
+  }
+  .menu-header-navigation {
+   display: flex;
+   justify-content: space-between;
+  }
