@@ -38,9 +38,9 @@ body {
    text-transform: uppercase;          
    color: #4d5ae5;
    font-style: normal;
-
    margin-right: 76px;
    display: inline-block;
+   border-bottom: 1px solid #e7e9fc,
 }   
 
 .link {
@@ -295,8 +295,10 @@ margin: o auto;
 
 .header {
 border-bottom: 1px solid var(--cornflower-color);
-
+margin: o auto;
+padding: 0 15px 0 15px ;
 }
+
 .menu-header {
    display: flex;
    padding-top: 24px;
