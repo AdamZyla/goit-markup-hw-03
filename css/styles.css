@@ -39,11 +39,8 @@ body {
    color: #4d5ae5;
    font-style: normal;
 
-   display: flex;
-   border-bottom: 25.5px;
-   margin-left: 156px;
    margin-right: 76px;
-   justify-content: flex-start;
+   display: inline-block;
 }   
 
 .link {
@@ -300,14 +297,19 @@ border-bottom: 1px solid var(--cornflower-color);
    display: flex;
    padding-top: 24px;
    padding-bottom: 24px;
-   justify-content: center;
+  
   
   }
 .menu-header-navigation {
    display: flex;
-   justify-content: space-between;
-   gap: 40px;
-  }
+   align-items: center;
+}
+
+
+
+
+
+
 
 .cosmos {
 display: box;
