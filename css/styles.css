@@ -37,7 +37,7 @@ ul {
    --dairy-color: #fcfcfc;
    }
        
-.main-navigation {
+.main-header {
    background-color: var(--white-color);
    border-bottom: 1px solid #e7e9fc;
 }
