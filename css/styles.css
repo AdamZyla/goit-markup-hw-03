@@ -248,7 +248,7 @@ margin-bottom: 8px;
    line-height: 1.11;
    text-align: center;
    text-transform: capitalize;
-   padding-bottom: 72px;
+   margin-bottom: 72px;
 }
 
 .section-four-header {
@@ -411,6 +411,7 @@ border-radius: 4px;
    padding-top: 0;
 }
 .section-tree-styling-ul {
+   gap: 24px;
    width: calc((100%-48px)/3);
 }
 .pictures-signature {
