@@ -10,6 +10,18 @@ body {
    padding: 0;
 }
 
+img {
+   display: block;
+   max-width: 100%; 
+   height: auto;
+}
+
+ul {
+   margin: 0;
+   padding-left: 0;
+   list-style: none;
+}
+
 :root {
    --iris-color: #4D5AE5;  
    --ocean-color: #404BBF;
@@ -240,6 +252,7 @@ color: var(--navy-blue-color);
    line-height: 1.11;
    text-align: center;
    text-transform: capitalize;
+   margin-bottom: 72px;
 }
 
 .section-four-text {
@@ -260,6 +273,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px; 
 letter-spacing: 0.32px;
+margin-top: 8px;
 }
 
 .project-names {
@@ -288,6 +302,9 @@ color: #434455;
 
 .section-four-text-bg {
    background-color: #FFFFFF;
+   border-radius: 0px 0px 4px 4px;
+   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+   width: calc((100%-72px)/4);
 }
 
 .container {
@@ -366,4 +383,12 @@ border-radius: 4px;
 }
 .section-tree-styling-ul {
    width: calc((100%-48px)/3);
+}
+.pictures-signature {
+   padding: 32px 0px;
+   text-align: center;
+}
+.section-four-list-styling {
+   display: flex;
+   gap: 24px;
 }
