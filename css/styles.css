@@ -303,7 +303,7 @@ border-bottom: 1px solid var(--cornflower-color);
    justify-content: center;
   
   }
-  .menu-header-navigation {
+.menu-header-navigation {
    display: flex;
    justify-content: space-between;
    gap: 40px;
@@ -312,5 +312,5 @@ border-bottom: 1px solid var(--cornflower-color);
 .cosmos {
 display: box;
 align-content: center;
-justify-content: center;
+
 }
