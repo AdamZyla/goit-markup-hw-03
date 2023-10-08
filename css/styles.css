@@ -79,6 +79,7 @@ color: #434455;
    font-weight: 500;
    line-height: 24px;
    letter-spacing: 0.32px;
+   gap: 40px;
 
    
 }
@@ -99,7 +100,8 @@ color: #434455;
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #2E2F42;
-   text-decoration: none
+   text-decoration: none;
+   padding: 24px 0;
 }
 
 .button-menu {
@@ -148,7 +150,9 @@ cursor: pointer;
 
 .list {
    list-style: none;
+   display: flex;
 
+   gap: 40px;   
 }
 
 .logo-span-footer {
@@ -305,14 +309,13 @@ border-bottom: 1px solid var(--cornflower-color);
    align-items: center;
 }
 
-
-
-
-
-
-
-.cosmos {
-display: box;
-align-content: center;
-
+.list-contact {
+   display: flex;
+   gap: 40px;
+   margin-left: 332px;
 }
+
+
+
+
+
