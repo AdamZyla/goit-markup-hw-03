@@ -418,8 +418,8 @@ border-radius: 4px;
    padding: 32px 0px;
    text-align: center;
 }
-/*.section-four-list-styling {
+.section-four-list-styling {
    display: flex;
    gap: 24px;
 }
-*/
+
