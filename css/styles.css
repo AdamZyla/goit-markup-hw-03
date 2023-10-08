@@ -454,13 +454,15 @@ border: 1px solid transparent;
 .project-portfolio-styling {
    display: flex;
    flex-wrap: wrap;
-   column-gap: 24px;
+   gap: 24px;
    row-gap: 48px;
      }
 .projects-link-styling {
-   
-   border: 1px solid #e7e9fc;
+   border: 1px solid var(--cornflower-color);
    border-top: none;
-   margin-bottom: 8px;
+   padding: 32px 16px;
    
    }
+.list-project-item-styling {
+flex-basis: calc((100%-48)/3);
+}
