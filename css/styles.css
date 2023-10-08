@@ -445,3 +445,18 @@ border: 1px solid transparent;
 .button-portfolio-styling:focus {
 border: 1px solid transparent;
 }
+
+.project-portfolio-styling {
+   display: flex;
+   flex-wrap: wrap;
+   column-gap: 24px;
+   row-gap: 48px;
+  /* width: calc((100% - 48px) / 3);*/
+   }
+.projects-link-styling {
+   padding: 16px 32px;
+   border: 1px solid #e7e9fc;
+   border-top: none;
+   margin-bottom: 8px;
+   
+   }
