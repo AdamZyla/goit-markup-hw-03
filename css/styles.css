@@ -299,7 +299,7 @@ line-height: 24px;
 letter-spacing: 0.4px;
 color: #2E2F42;
 padding-top: 32px;
-padding-bottom: 8px;
+margin-bottom: 8px;
 text-align: center;
 }
 
@@ -464,5 +464,5 @@ border: 1px solid transparent;
    
    }
 .list-project-item-styling {
-flex-basis: calc((100%-48)/3);
+width: calc((100%-48)/3);
 }
