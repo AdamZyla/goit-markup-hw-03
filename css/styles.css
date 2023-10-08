@@ -226,6 +226,7 @@ color: var(--navy-blue-color);
    line-height: 1.11;
    text-align: center;
    text-transform: capitalize;
+   padding-bottom: 72px;
 }
 
 .section-four-header {
@@ -349,7 +350,20 @@ border-radius: 4px;
    clip: rect(0 0 0 0);
    overflow: hidden;
 }
+
+.section {
+   padding-top: 120px;
+   padding-bottom: 120px;
+
+}
 .section-two-styling {
    display: flex;
+   width: calc((100%-72px)/4);
+}
 
+.section-tree-styling {
+   padding-top: 0;
+}
+.section-tree-styling-ul {
+   width: calc((100%-48px)/3);
 }
