@@ -94,6 +94,7 @@ color: #434455;
    line-height: 24px;
    letter-spacing: 0.32px;
    gap: 40px;
+   border-bottom: 1px solid #e7e9fc;
 
    
 }
@@ -316,7 +317,7 @@ color: #434455;
 
 .container {
 max-width: 1158px;
-padding: 0 15px;
+padding: 0 15px 0 15px;
 margin: 0 auto;
 }
 
@@ -382,6 +383,7 @@ border-radius: 4px;
 }
 .section-two-styling {
    display: flex;
+   gap: 24px;
    width: calc((100%-72px)/4);
 }
 
