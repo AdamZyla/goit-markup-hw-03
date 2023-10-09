@@ -355,10 +355,10 @@ padding-right: 15px;
    align-items: center;
   padding: 24px 0;
 }
-.menu-header-padding {
+/*.menu-header-padding {
    padding-top: 24px;
    padding-bottom: 24px;
-}
+}*/
 
 .list-contact {
    display: flex;
