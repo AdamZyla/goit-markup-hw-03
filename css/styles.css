@@ -53,7 +53,7 @@ ul {
    font-style: normal;
    margin-right: 76px;
    display: inline-block;
-   margin-bottom: 16px;
+  
   
 }   
 
@@ -274,7 +274,8 @@ font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.4px;
 text-align: center;
-margin-top: 32px;
+/*margin-top: 32px;*/
+margin-bottom: 8px;
 }
 
 .section-four-positions {
@@ -285,9 +286,9 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px; 
 letter-spacing: 0.32px;
-margin-top: 8px;
+/*margin-top: 8px;*/
 text-align: center;
-margin-bottom: 32px;
+/*margin-bottom: 32px;*/
 }
 
 .project-names {
@@ -322,14 +323,14 @@ text-align: center;
    background-color: #FFFFFF;
    border-radius: 0px 0px 4px 4px;
    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-   width: calc((100%-72px)/4);
+   width: calc((100% - 72px)/4);
    gap: 24px;
 }
 
 .container {
 max-width: 1158px;
 margin: 0 auto;
-padding: 0px 15px 0px 15px;
+padding: 0 15px; 
 }
 
 .header {
@@ -356,15 +357,15 @@ padding-right: 15px;
    align-items: center;
    gap: 40px;
    margin-left: 332px;
-   padding-top: 24px;
-   padding-bottom: 24px;
+
    
 }
 
 .section-one-styling {
 display: block;
 max-width: 496px;
-margin: 0 auto;
+/*margin: 0 auto;*/
+margin-bottom: 48px;
 padding-top: 188px;
 padding-bottom: 188px;
 
@@ -392,37 +393,37 @@ border-radius: 4px;
    overflow: hidden;
 }
 
-.section {
+/*.section {
    padding-top: 120px;
    padding-bottom: 120px;
-}
+}*/
 .section-two-styling {
   
   display: flex;
    gap: 24px;
-   width: calc((100%-72px)/4);
+  /* width: calc((100%-72px)/4);*/
 }
 
 .section-portfolio {
       padding-top: 96px;
       padding-bottom: 120px;
 }
-/*
+
 .section-two-li {
    display: flex;
    gap: 24px;
-   flex-basis: calc((100% - 72px) / 4);
-}*/
+   flex-basis: calc((100% - 72px)/4);
+}
 
 .section-tree-styling {
    padding-top: 0;
 }
 .section-tree-styling-ul {
    gap: 24px;
-   width: calc((100%-48px)/3);
+   width: calc((100% - 48px)/3);
 }
 .pictures-signature {
-   /*padding: 32px 0px;*/
+   padding: 32px 0px;
    text-align: center;
 }
 .section-four-list-styling {
@@ -464,7 +465,7 @@ border: 1px solid transparent;
    
    }
 .list-project-item-styling {
-flex-basis: calc((100%-48)/3);
+flex-basis: calc((100% - 48)/3);
 
 
 
