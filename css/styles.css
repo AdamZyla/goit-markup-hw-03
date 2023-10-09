@@ -497,5 +497,5 @@ flex-basis: calc((100% - 48)/3);
 }
 
 .link-padding {
-   padding-top: 24px;
-   padding-bottom: 24px;}
+   padding: 24px 0;
+   }
