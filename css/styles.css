@@ -333,10 +333,10 @@ text-align: center;
 
 .container {
 max-width: 1158px;
+padding: 0 15px;
 margin: 0 auto;
-padding: 0 15px; 
 }
-
+   
 .header {
 border-bottom: 1px solid var(--cornflower-color);
 margin: 0 auto;
