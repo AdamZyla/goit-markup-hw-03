@@ -354,6 +354,10 @@ padding-right: 15px;
 .menu-header-navigation {
    display: flex;
    align-items: center;
+   /*padding-top: 24px;
+   padding-bottom: 24px;*/
+}
+.menu-header-padding {
    padding-top: 24px;
    padding-bottom: 24px;
 }
@@ -449,7 +453,10 @@ border-radius: 4px;
 /*padding: 0;*/
 }
 .pictures-signature {
-   padding: 32px 0;
+   padding-top: 32px;
+   padding-left: 16px;
+   padding-bottom: 32px;
+   padding-right: 16px;
    text-align: center;
 }
 .section-four-list-styling {
