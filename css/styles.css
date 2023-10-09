@@ -397,8 +397,17 @@ border-radius: 4px;
    overflow: hidden;
 }
 
-.section {
-   /*[padding-top: 120px;*/
+/*.section {
+   padding-top: 120px;
+   padding-bottom: 120px;
+}*/
+.section-one-padding {
+   padding-top: 188px;
+   padding-bottom: 188px;
+}
+
+.section-two-padding {
+   padding-top: 120px;
    padding-bottom: 120px;
 }
 
